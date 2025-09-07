@@ -27,7 +27,7 @@ const Navbar = () => {
       <nav className="max-w-[1400px] mx-auto md:h-[14vh] h-[12vh] px-10 items-center flex justify-between">
         {/* Logo */}
         <a href="#" className="text-3xl font-bold">
-          Gr<span className="text-orange-500">O</span>cify
+          Gr<span className="text-orange-500">O</span>cery Cart
         </a>
 
         {/* Desktop Menu */}

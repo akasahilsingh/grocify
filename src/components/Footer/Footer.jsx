@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-[1400px] mx-auto px-10 gap-y-12 flex flex-wrap">
         <div className="flex-1 basis-[300px]">
           <a href="#" className="text-3xl font-bold">
-            Gr<span className="text-orange-500">O</span>cify
+            Gr<span className="text-orange-500">O</span>cery Cart
           </a>
           <p className="text-zinc-800 mt-6 max-w-[350px]">
             Bred for a high content of beneficial substances. Our products are
