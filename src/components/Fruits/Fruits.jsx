@@ -1,13 +1,13 @@
-import React from 'react'
-import CateggoryPage from '../CategoryPage/CateggoryPage'
-import BgFruits from '../../assets/fruits-banner.jpg'
+import React from "react";
+import CateggoryPage from "../CategoryPage/CateggoryPage";
+import BgFruits from "../../assets/fruits-banner.jpg";
 
 const Fruits = () => {
   return (
     <div>
-      <CateggoryPage title="Fruits & Veggies" bgImage={BgFruits}/>
+      <CateggoryPage title="Fruits & Veggies" bgImage={BgFruits} categories={['Fruits', 'Vaegetables']} />
     </div>
-  )
-}
+  );
+};
 
-export default Fruits
+export default Fruits;

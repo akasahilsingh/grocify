@@ -4,6 +4,7 @@ import { RiShoppingBag4Fill } from "react-icons/ri";
 import { FaSearch } from "react-icons/fa";
 import { IoMdMenu } from "react-icons/io";
 import { TbMenu3 } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -26,9 +27,9 @@ const Navbar = () => {
     <header className={`bg-white fixed top-0 left-0 right-0 z-50 ${isScrolled ? 'drop-shadow-[0_4px_25px_rgba(0,0,0,0.5)]' : ''}`}>
       <nav className="max-w-[1400px] mx-auto md:h-[14vh] h-[12vh] px-10 items-center flex justify-between">
         {/* Logo */}
-        <a href="#" className="text-3xl font-bold">
+        <Link to="/" className="text-3xl font-bold">
           Gr<span className="text-orange-500">O</span>cery Cart
-        </a>
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="md:flex items-center gap-x-15 hidden">
